@@ -6160,7 +6160,7 @@ text-table@^0.2.0:
 
 "theme-component@https://github.com/CraftCodersInfotech/theme-component.git":
   version "1.0.0"
-  resolved "https://github.com/CraftCodersInfotech/theme-component.git#442ea3c70775f86eb82d7b03cf9dad71f8882ca6"
+  resolved "https://github.com/CraftCodersInfotech/theme-component.git#25d1b14798d18cd0e1b8e8de2da8171434ab630f"
 
 throat@^5.0.0:
   version "5.0.0"
