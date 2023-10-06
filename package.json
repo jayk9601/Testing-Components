@@ -4,14 +4,23 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "ios": "react-native run-ios --simulator='iPhone 11'",
+    "ios8": "react-native run-ios --simulator='iPhone 14'",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "reset": "npx react-native start --reset-cache",
+    "clean": "cd android && ./gradlew clean && cd ..",
+    "build:android": "cd android && ./gradlew assembleRelease && cd ..",
+    "ios:release": "npx react-native run-ios --mode Release iPhone 8",
+    "android:release": "react-native run-android --mode release"
   },
   "dependencies": {
     "react": "18.2.0",
-    "react-native": "0.72.5"
+    "react-hook-form": "^7.47.0",
+    "react-native": "0.72.5",
+    "react-native-gesture-handler": "^2.13.1",
+    "theme-component": "https://github.com/CraftCodersInfotech/theme-component.git"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
